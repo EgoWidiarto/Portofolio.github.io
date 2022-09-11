@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="welcome-section">
+    <header>
+        <!-- Navbar -->
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4" href="#">EG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#header">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbr End -->
+
+        <!-- Profile & About -->
+        <section id="header">
+            <div class="jumbotron">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-6 text-center order-lg-1 order-md-1 order-sm-2">
+                        <h1 class="display-4">Hi, I'm Chesa</h1>
+                        <p class="lead">An Ambisious Web Developer</p>
+                        <a id="profile-link" class="btn btn-primary btn-lg" href="https://github.com/EgoWidiarto"
+                            target="_blank" role="button">About Me</a>
+                    </div>
+                    <div class="col-md-5 ms-auto order-lg-2 order-md-2 order-sm-1 mb-4">
+                        <img src="../img/profile.png" class="rounded mx-auto d-block" alt="gal">
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path class="shadowt" fill="#fff" fill-opacity="1"
+                    d="M0,32L48,26.7C96,21,192,11,288,42.7C384,75,480,149,576,176C672,203,768,181,864,160C960,139,1056,117,1152,128C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Profile & About End -->
+    </header>
+
+    <main id="projects">
+        <div class="row text-center mb-5">
+            <h3>Project</h3>
+        </div>
+        <div class="row d-flex justify-content-around text-center">
+            <div class="col-md-4">
+                <a href="../../surveyForm/survey.html" target="_blank" rel="noopener noreferrer">
+                    <img src="../img/survey.png" class="img-thumbnail rounded mb-3 project-tile" alt="...">
+                </a>
+                <p>Survey Form</p>
+            </div>
+            <div class="col-md-4">
+                <a href="../../../Galery/gallery.html" target="_blank" rel="noopener noreferrer">
+                    <img src="../img/gal.png" class="img-thumbnail rounded mb-3 project-tile" alt="...">
+                </a>
+                <p>Food Gallery</p>
+            </div>
+            <div class="col-md-4">
+                <a href="../../Techical Documentation/documentation.html" target="_blank" rel="noopener noreferrer">
+                    <img src="../img/tech.png" class="img-thumbnail rounded mb-3 project-tile" alt="...">
+                </a>
+                <p>Technical Documentation</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,181.3C672,192,768,128,864,117.3C960,107,1056,149,1152,160C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+
+        <div class="row text-lg-start ms-3 pb-3">
+            <i class="bi bi-github text-white"> EgoWidiarto</i>
+            <i class="bi bi-instagram text-white"> @egios_</i>
+            <i class="bi bi-twitter text-white"> @EgoWdrt</i>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

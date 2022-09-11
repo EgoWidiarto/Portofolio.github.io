@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Poppins&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+/* Header */
+
+nav {
+    background-color: #3120E0;
+    overflow: hidden;
+}
+
+nav .navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+nav #NavbarNav ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    padding-top: 183px;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    background: linear-gradient(24.06deg, #228AA1 16.63%, rgba(215, 239, 247, 0) 103.36%, rgba(200, 231, 240, 0.0805859) 103.36%);
+}
+
+.shadowt {
+    filter: drop-shadow(0 10px 6 black);
+}
+
+/* Header End */
+
+
+/* Main Content */
+/* Project */
+#project {
+    padding-top: 80px;
+}
+
+.project-tile {
+    box-shadow: 4px 2px 5px #808080;
+}
+
+.project-tile:hover {
+    box-shadow: 0 0 0 #808080;
+    transform: scale(1.01);
+}
+
+/* End Main Content */
+
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: 80px;
+    background: linear-gradient(14.51deg, #228AA1 0.49%, rgba(215, 239, 247, 0) 95.59%, rgba(200, 231, 240, 0.0805859) 95.59%);
+}
+
+.bi {
+    font-size: 20px;
+}
+
+/* End Footer */
+
+
+/* Manual Responsive */
+@media screen and (max-width=768px) {
+    .bi {
+        text-align: center;
+    }
+}
